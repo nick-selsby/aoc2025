@@ -19,7 +19,7 @@ int calc_password(std::string_view text) {
 	for (auto line : std::views::split(text, '\n')) {
 		std::string_view sv(line);
 		if (sv.empty()) continue;
-		val += dial_change_to_offset(sv);
+		val = (val + dial_change_to_offset(sv)) % 100;
 		if (val == 0) count++;
 	}
 	return count;
