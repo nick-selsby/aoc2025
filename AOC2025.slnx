@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="2.1/2.1.vcxproj" Id="57fe67dd-71c1-4bf9-b788-4bce28cdb555" />
+  <Project Path="2.2/2.2.vcxproj" Id="dbb5d457-98f4-4d6f-9b36-0a142ae4368c" />
   <Project Path="Part1/Part1.vcxproj" Id="546e06a9-30da-418f-ba07-fda104f0283b" />
   <Project Path="Part2/Part2.vcxproj" Id="a4b2d852-43c8-4251-b67a-252595a266fa" />
 </Solution>
