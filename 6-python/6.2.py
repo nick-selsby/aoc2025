@@ -23,9 +23,3 @@ for i in range(len(columns) - 1):
     final += problem_total
 
 print(f"COUNT: {final}")
-
-#sym = np.array([i == '*' for i in lines[-1].strip().split()])
-#values = np.where(sym, np.prod(nums, axis=0), np.sum(nums, axis=0))
-#final = np.sum(values)
-
-#print(f"OUTPUT: {final}")
